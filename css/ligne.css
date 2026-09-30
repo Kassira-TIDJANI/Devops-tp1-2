@@ -15,3 +15,10 @@ body {
     padding: 15px;
     border-bottom: 3px solid #3498db;
 }
+
+/* Modification du titre h1 pour l'étape 8 */
+h1 {
+    color: #e74c3c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
