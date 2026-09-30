@@ -90,6 +90,11 @@ button {
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.menu {
+    background-color: #90ee90; /* Vert pâle */
+    color: #ffffff;            /* Écriture en blanc */
+}
+
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
