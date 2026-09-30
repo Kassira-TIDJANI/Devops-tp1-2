@@ -1,0 +1,17 @@
+/* Style pour la ligne graphique et le message de bienvenue */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.bienvenue {
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+    border-bottom: 3px solid #3498db;
+}
