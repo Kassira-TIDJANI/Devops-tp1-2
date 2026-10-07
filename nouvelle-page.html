@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre projet</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #1f2937;
+        }
+
+        .features {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            background-color: #f9fafb;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #1f2937;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bienvenue sur notre projet</h1>
+        <p>Une nouvelle page créée dans le cadre du TD 5</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>À propos du projet</h2>
+            <p>
+                Cette page présente une nouvelle fonctionnalité développée
+                progressivement avec Git. Elle permet notamment d'illustrer
+                l'utilisation de plusieurs commits et du rebase interactif.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Nos fonctionnalités</h2>
+
+            <div class="features">
+
+                <div class="feature">
+                    <h3>💻 Développement</h3>
+                    <p>
+                        Une page web simple et structurée réalisée en HTML.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <h3>🔀 Git</h3>
+                    <p>
+                        Utilisation des branches et des commits pour suivre
+                        l'évolution du projet.
+                    </p>
+                </div>
+
+                <div class="feature">
+                    <h3>🚀 Rebase</h3>
+                    <p>
+                        Fusion des différents commits grâce au rebase interactif
+                        et au squash.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>TD 5 — Git &amp; Rebase interactif</p>
+    </footer>
+
+</body>
+</html>
